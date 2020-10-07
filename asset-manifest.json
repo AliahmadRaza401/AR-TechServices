@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AR-TechServices/static/css/main.4d3a6df5.chunk.css",
-    "main.js": "/AR-TechServices/static/js/main.8a4d4048.chunk.js",
-    "main.js.map": "/AR-TechServices/static/js/main.8a4d4048.chunk.js.map",
+    "main.css": "/AR-TechServices/static/css/main.e1783d0e.chunk.css",
+    "main.js": "/AR-TechServices/static/js/main.31b0d7ab.chunk.js",
+    "main.js.map": "/AR-TechServices/static/js/main.31b0d7ab.chunk.js.map",
     "runtime-main.js": "/AR-TechServices/static/js/runtime-main.45f3d69b.js",
     "runtime-main.js.map": "/AR-TechServices/static/js/runtime-main.45f3d69b.js.map",
     "static/css/2.75c4ecca.chunk.css": "/AR-TechServices/static/css/2.75c4ecca.chunk.css",
-    "static/js/2.b683005c.chunk.js": "/AR-TechServices/static/js/2.b683005c.chunk.js",
-    "static/js/2.b683005c.chunk.js.map": "/AR-TechServices/static/js/2.b683005c.chunk.js.map",
+    "static/js/2.963e301f.chunk.js": "/AR-TechServices/static/js/2.963e301f.chunk.js",
+    "static/js/2.963e301f.chunk.js.map": "/AR-TechServices/static/js/2.963e301f.chunk.js.map",
     "index.html": "/AR-TechServices/index.html",
-    "precache-manifest.0f41ca8e3648b862a2bdd9b0d1f199c2.js": "/AR-TechServices/precache-manifest.0f41ca8e3648b862a2bdd9b0d1f199c2.js",
+    "precache-manifest.e11ad07ad9f66c4dfa30e0bb293f2d76.js": "/AR-TechServices/precache-manifest.e11ad07ad9f66c4dfa30e0bb293f2d76.js",
     "service-worker.js": "/AR-TechServices/service-worker.js",
     "static/css/2.75c4ecca.chunk.css.map": "/AR-TechServices/static/css/2.75c4ecca.chunk.css.map",
-    "static/css/main.4d3a6df5.chunk.css.map": "/AR-TechServices/static/css/main.4d3a6df5.chunk.css.map",
-    "static/js/2.b683005c.chunk.js.LICENSE.txt": "/AR-TechServices/static/js/2.b683005c.chunk.js.LICENSE.txt",
+    "static/css/main.e1783d0e.chunk.css.map": "/AR-TechServices/static/css/main.e1783d0e.chunk.css.map",
+    "static/js/2.963e301f.chunk.js.LICENSE.txt": "/AR-TechServices/static/js/2.963e301f.chunk.js.LICENSE.txt",
     "static/media/Copy.png": "/AR-TechServices/static/media/Copy.0d693b81.png",
     "static/media/about.png": "/AR-TechServices/static/media/about.8b2f6be5.png",
     "static/media/app.jpg": "/AR-TechServices/static/media/app.292ce182.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.45f3d69b.js",
     "static/css/2.75c4ecca.chunk.css",
-    "static/js/2.b683005c.chunk.js",
-    "static/css/main.4d3a6df5.chunk.css",
-    "static/js/main.8a4d4048.chunk.js"
+    "static/js/2.963e301f.chunk.js",
+    "static/css/main.e1783d0e.chunk.css",
+    "static/js/main.31b0d7ab.chunk.js"
   ]
 }
