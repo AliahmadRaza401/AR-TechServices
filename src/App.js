@@ -21,7 +21,7 @@ const App= () => {
       <Route exact  path="/about" component={About} /> 
       <Redirect to="/" />
      </Switch>
-     <Footer />
+     
     
   </>
     

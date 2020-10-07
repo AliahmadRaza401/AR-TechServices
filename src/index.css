@@ -4,13 +4,20 @@
   box-sizing: border-box;
   font-family: 'Mulish', sans-serif;
 }
+div#mainheader {
+  padding-left: 0%;
+  padding-right: 0%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 0%;
+}
 
 .bg-light {
   background-color: #24bef9!important;
-}
-div#mainheader {
-    padding-left: 0%;
-    padding-right: 0%;
 }
 a.navbar-brand.active {
   padding-left: 4%;
@@ -39,10 +46,21 @@ navbar-light .navbar-nav .nav-link {
 }
 .menu_active{
   font-weight: bold;
-  border-bottom: 1px solid white;
+  color:#091581 !important ;
+  border-bottom: 1px solid #091581;
 }
 .navbar:hover{
   color : orange ;
+}
+h1{
+  color: #212529bd;
+}
+a{
+  color: white !important;
+
+}
+a:hover{
+  color: #091581 !important;
 }
 
 @media (max-width: 991px){
@@ -52,29 +70,33 @@ navbar-light .navbar-nav .nav-link {
   .menu_active{
     font-weight: bold;
     border-bottom: none;
+    color: #091581 !important;
   }
 }
 
 /**********************************************************/
+#Navbar {
+  background-color:#F38638!important;
+}
 #header{
   width: 100%;
   height: 80vh;
   margin-top: 0px;
-  background-color: #6610f2;
-  padding-top: 21%;
+  background-image: linear-gradient(135deg,#090979, #00d4ff);
+  padding-top: 28%;
   padding-bottom: 20%;
 }
 #header h1{
   margin: 0 0 10px 0;
   font-size:  48px;
   font-weight: 700;
-  color: black;
+  color: white;
 }
 #header .brand-name {
-  color: #3fa9f1;
+  color: #F38638;
 }
 #header h2{
-  color: #000000;
+  color: white;
   font-size: 24px;
 }
 #header .btn-get-started{
@@ -121,6 +143,13 @@ img#home-img {
     transform: translateY(-10px);
   }
 }
+
+h1.services {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 2%;
+}
+/**************  ****************/
 /**contact us ***********/
 .form-group {
   margin-bottom: 2%;
@@ -128,8 +157,20 @@ img#home-img {
 .container.contact-div {
   margin-top: -1%;
 }
+
 h1.text-center {
   font-weight: 900;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  color: white;
+}
+div#bgimg {
+  background: url(https://investinisrael.gov.il/Style%20Library/Images/Contcat_us_form_background_photo.png);
+ position: absolute;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 /***** Resposive Code ********/
@@ -157,6 +198,32 @@ h1.text-center {
     width: 100%;
     margin-left: 37%;
   }
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+    background: white;
+}
+.text-center {
+  padding-top: 13%;
+  /* margin-top: 66%; */
+  text-align: center!important;
+  color: var(--bs-white);
+  margin-bottom: 31px;
+  font-weight: 900;
+}
+.btn-outline-primary {
+  margin-top: 8%;
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.form-group {
+  margin-bottom: 6%;
+}
 }
 
 
@@ -167,4 +234,10 @@ h1.text-center {
 }
 img.card-img-top {
   height: 212px;
+}
+h1.services {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 2%;
+  padding-top: 8%;
 }

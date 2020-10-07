@@ -28,9 +28,9 @@ const Contact= () => {
 
  return(
   <>
-     <div className="my-5">
+     <div className="" id="bgimg">
        <h1 className="text-center" > Contact Us </h1>
-     </div>
+     
      <div className="container contact-div">
          <div className="row">
             <div className="col.md-6 col-8 mx-auto">
@@ -73,6 +73,7 @@ const Contact= () => {
               </form>
             </div>
          </div>
+     </div>
      </div>
   </>
     
